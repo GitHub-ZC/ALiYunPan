@@ -11,6 +11,11 @@ import top.iecoxe.utils.ALi_CodeUtil;
 import javax.annotation.Resource;
 import java.math.BigInteger;
 
+
+/**
+ * ALiYunPan 客户端上传文件时，需要获取的特殊字段
+ * @author IMAX-拾荒者
+ */
 @RestController
 public class ALi_Intermediate_Data_Controller {
     @Resource
