@@ -4,6 +4,6 @@ server:
 
 # 阿里云盘的刷新token => refresh_token（登录token）
 aliyun:
-  refresh_token: "481fe770525f45398ae80270783dc69a"
+  refresh_token: "b0e9c1d5f93f401684759c55367eca28"
   X_Device_Id: "m3UEHIuEKk8CAa5GsaUoNjMP"
 
