@@ -45,6 +45,8 @@ public class ALi_File_Controller {
         HttpHeaders headers = new HttpHeaders();
         headers.set("Authorization", aLi_token.getAccess_token());
         headers.set("Referer", "https://www.aliyundrive.com/");
+        headers.set("X-Device-Id", "m3UEHIuEKk8CAa5GsaUoNjMP");
+        headers.set("X-Signature", aLi_token.getX_Signature());
 
         // 构建请求体参数
         JSONObject jsonObject = new JSONObject();
@@ -80,6 +82,8 @@ public class ALi_File_Controller {
         HttpHeaders headers = new HttpHeaders();
         headers.set("Authorization", aLi_token.getAccess_token());
         headers.set("Referer", "https://www.aliyundrive.com/");
+        headers.set("X-Device-Id", "m3UEHIuEKk8CAa5GsaUoNjMP");
+        headers.set("X-Signature", aLi_token.getX_Signature());
 
         // 构建请求体参数
         JSONObject jsonObject = new JSONObject();
@@ -108,6 +112,8 @@ public class ALi_File_Controller {
         headers.set("Authorization", aLi_token.getAccess_token());
         headers.set("Referer", "https://www.aliyundrive.com/");
         headers.set("Content-Type", "application/json;charset=utf-8");
+        headers.set("X-Device-Id", "m3UEHIuEKk8CAa5GsaUoNjMP");
+        headers.set("X-Signature", aLi_token.getX_Signature());
 
         // 构建请求体参数
         JSONObject jsonObject = new JSONObject();
@@ -140,6 +146,8 @@ public class ALi_File_Controller {
         headers.set("Authorization", aLi_token.getAccess_token());
         headers.set("Referer", "https://www.aliyundrive.com/");
         headers.set("Content-Type", "application/json;charset=utf-8");
+        headers.set("X-Device-Id", "m3UEHIuEKk8CAa5GsaUoNjMP");
+        headers.set("X-Signature", aLi_token.getX_Signature());
 
         // 构建请求体参数
         JSONObject jsonObject = new JSONObject();
@@ -170,6 +178,8 @@ public class ALi_File_Controller {
         headers.set("Authorization", aLi_token.getAccess_token());
         headers.set("Referer", "https://www.aliyundrive.com/");
         headers.set("Content-Type", "application/json;charset=utf-8");
+        headers.set("X-Device-Id", "m3UEHIuEKk8CAa5GsaUoNjMP");
+        headers.set("X-Signature", aLi_token.getX_Signature());
 
         // 构建请求体参数
         JSONObject jsonObject = new JSONObject();
@@ -199,6 +209,8 @@ public class ALi_File_Controller {
         headers.set("Authorization", aLi_token.getAccess_token());
         headers.set("Referer", "https://www.aliyundrive.com/");
         headers.set("Content-Type", "application/json;charset=utf-8");
+        headers.set("X-Device-Id", "m3UEHIuEKk8CAa5GsaUoNjMP");
+        headers.set("X-Signature", aLi_token.getX_Signature());
 
         // 构建请求体参数
         JSONObject jsonObject = new JSONObject();
@@ -228,6 +240,8 @@ public class ALi_File_Controller {
         headers.set("Authorization", aLi_token.getAccess_token());
         headers.set("Referer", "https://www.aliyundrive.com/");
         headers.set("Content-Type", "application/json;charset=utf-8");
+        headers.set("X-Device-Id", "m3UEHIuEKk8CAa5GsaUoNjMP");
+        headers.set("X-Signature", aLi_token.getX_Signature());
 
         // 构建请求体参数
         JSONObject jsonObject = new JSONObject();

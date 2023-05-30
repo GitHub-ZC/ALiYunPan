@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 
@@ -25,6 +26,12 @@ public class ALi_Token {
 
     @Value("${aliyun.refresh_token}")
     private String refresh_token;
+
+    @Value("${aliyun.X_Device_Id}")
+    private String X_Device_Id;
+
+    private String X_Signature;
+
     private String user_id;
     private String device_id;
     private String avatar;
